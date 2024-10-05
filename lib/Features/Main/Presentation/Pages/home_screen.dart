@@ -1,5 +1,5 @@
-import 'package:bloc_app/Features/Domain/Entities/data_entity.dart';
-import 'package:bloc_app/Features/Presentation/bloc/home_bloc.dart';
+import 'package:bloc_app/Features/Main/Domain/Entities/data_entity.dart';
+import 'package:bloc_app/Features/Main/Presentation/bloc/home_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

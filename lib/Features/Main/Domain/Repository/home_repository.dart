@@ -1,5 +1,5 @@
 import 'package:bloc_app/Core/Utils/Failures/data_state.dart';
-import 'package:bloc_app/Features/Domain/Entities/data_entity.dart';
+import 'package:bloc_app/Features/Main/Domain/Entities/data_entity.dart';
 
 abstract class HomeRepository {
   // Get Body

@@ -1,7 +1,7 @@
-import 'package:bloc_app/Features/Data/Repository/home_repository_impl.dart';
-import 'package:bloc_app/Features/Domain/Repository/home_repository.dart';
-import 'package:bloc_app/Features/Domain/UseCases/usecases.dart';
-import 'package:bloc_app/Features/Presentation/bloc/home_bloc.dart';
+import 'package:bloc_app/Features/Main/Data/Repository/home_repository_impl.dart';
+import 'package:bloc_app/Features/Main/Domain/Repository/home_repository.dart';
+import 'package:bloc_app/Features/Main/Domain/UseCases/usecases.dart';
+import 'package:bloc_app/Features/Main/Presentation/bloc/home_bloc.dart';
 import 'package:get_it/get_it.dart';
 
 GetIt locator = GetIt.instance;

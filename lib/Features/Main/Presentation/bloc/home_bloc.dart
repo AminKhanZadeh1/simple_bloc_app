@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:bloc_app/Core/Utils/Failures/data_state.dart';
-import 'package:bloc_app/Features/Domain/Entities/data_entity.dart';
-import 'package:bloc_app/Features/Domain/UseCases/usecases.dart';
+import 'package:bloc_app/Features/Main/Domain/Entities/data_entity.dart';
+import 'package:bloc_app/Features/Main/Domain/UseCases/usecases.dart';
 import 'package:equatable/equatable.dart';
 
 part 'home_event.dart';

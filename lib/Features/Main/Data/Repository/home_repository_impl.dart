@@ -1,8 +1,8 @@
 import 'package:bloc_app/Core/Utils/Failures/data_state.dart';
-import 'package:bloc_app/Features/Data/Models/data_model.dart';
-import 'package:bloc_app/Features/Data/Sources/Remote/api_service.dart';
-import 'package:bloc_app/Features/Domain/Entities/data_entity.dart';
-import 'package:bloc_app/Features/Domain/Repository/home_repository.dart';
+import 'package:bloc_app/Features/Main/Data/Models/data_model.dart';
+import 'package:bloc_app/Features/Main/Data/Sources/Remote/api_service.dart';
+import 'package:bloc_app/Features/Main/Domain/Entities/data_entity.dart';
+import 'package:bloc_app/Features/Main/Domain/Repository/home_repository.dart';
 
 class HomeRepositoryImpl implements HomeRepository {
   final _apiProvider = ApiService();
